@@ -94,7 +94,7 @@ facts:
     description: Volume inspection results for the affected volume.
     returned: success
     type: dict
-    sample: {}
+    sample: {"ansible_facts": {"docker_volume": {"CreatedAt": "2018-06-15T20:37:37Z", "Driver": "local", "Labels": null, "Mountpoint": "/var/lib/docker/volumes/my_volume_name/_data", "Name": "my_volume_name", "Options": {}, "Scope": "local"}}, "changed": true}
 '''
 
 try:
